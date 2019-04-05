@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://codethoi.com"
 languageCode = "vi-vn"
 title = "Khánh's Blog | Code Thối"
 theme = "m10c"

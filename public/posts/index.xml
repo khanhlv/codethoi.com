@@ -1,42 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Blog</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Blog</description>
+    <title>Posts on Khánh&#39;s Blog | Code Thối</title>
+    <link>https://codethoi.com/posts/</link>
+    <description>Recent content in Posts on Khánh&#39;s Blog | Code Thối</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>vi-vn</language>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://codethoi.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Chủ đàn chó cắn bé trai tử vong: &#39;Tôi rất ân hận&#39;</title>
+      <link>https://codethoi.com/posts/test-1/</link>
+      <pubDate>Fri, 05 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://codethoi.com/posts/test-1/</guid>
+      <description>Sáng 5&amp;frasl;4, bà Lê Thị An - chủ đàn chó cắn tử vong bé trai 7 tuổi ở thị trấn Lương Bằng, Kim Động (Hưng Yên) nói: &amp;ldquo;Hai ngày qua, tôi không thể nào ngủ được vì ân hận, thương cháu bé và không hiểu chuyện gì đang xảy ra&amp;rdquo;.
+Theo bà An, lúc cháu bé bị chó tấn công, bà đang đi điều tra dân số cùng một số cán bộ ở tổ dân phố, về đến nhà thấy sự việc nên vội lên xe cùng bố mẹ cháu đưa bé đến bệnh viện cấp cứu, nhưng đã quá muộn.</description>
+    </item>
+    
+    <item>
       <title>Creating a New Theme</title>
-      <link>http://localhost:1313/posts/creating-a-new-theme/</link>
+      <link>https://codethoi.com/posts/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/creating-a-new-theme/</guid>
+      <guid>https://codethoi.com/posts/creating-a-new-theme/</guid>
       <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
 We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
     </item>
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://localhost:1313/posts/goisforlovers/</link>
+      <link>https://codethoi.com/posts/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/goisforlovers/</guid>
+      <guid>https://codethoi.com/posts/goisforlovers/</guid>
       <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
 This document is a brief primer on using Go templates.</description>
     </item>
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://localhost:1313/posts/hugoisforlovers/</link>
+      <link>https://codethoi.com/posts/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/hugoisforlovers/</guid>
+      <guid>https://codethoi.com/posts/hugoisforlovers/</guid>
       <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
 Save it somewhere specific as we will be using it in the next step.
 More complete instructions are available at Install Hugo
@@ -47,10 +57,10 @@ Follow the following steps:
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>http://localhost:1313/posts/migrate-from-jekyll/</link>
+      <link>https://codethoi.com/posts/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/migrate-from-jekyll/</guid>
+      <guid>https://codethoi.com/posts/migrate-from-jekyll/</guid>
       <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
 ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
 ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
@@ -58,83 +68,74 @@ Follow the following steps:
     
     <item>
       <title>Test 9</title>
-      <link>http://localhost:1313/posts/test-9/</link>
+      <link>https://codethoi.com/posts/test-9/</link>
       <pubDate>Thu, 09 Jan 1012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/test-9/</guid>
+      <guid>https://codethoi.com/posts/test-9/</guid>
       <description>Test 9</description>
     </item>
     
     <item>
       <title>Test 8</title>
-      <link>http://localhost:1313/posts/test-8/</link>
+      <link>https://codethoi.com/posts/test-8/</link>
       <pubDate>Wed, 08 Jan 1012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/test-8/</guid>
+      <guid>https://codethoi.com/posts/test-8/</guid>
       <description>Test 8</description>
     </item>
     
     <item>
       <title>Test 7</title>
-      <link>http://localhost:1313/posts/test-7/</link>
+      <link>https://codethoi.com/posts/test-7/</link>
       <pubDate>Tue, 07 Jan 1012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/test-7/</guid>
+      <guid>https://codethoi.com/posts/test-7/</guid>
       <description>Test 7</description>
     </item>
     
     <item>
       <title>Test 6</title>
-      <link>http://localhost:1313/posts/test-6/</link>
+      <link>https://codethoi.com/posts/test-6/</link>
       <pubDate>Mon, 06 Jan 1012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/test-6/</guid>
+      <guid>https://codethoi.com/posts/test-6/</guid>
       <description>Test 6</description>
     </item>
     
     <item>
       <title>Test 5</title>
-      <link>http://localhost:1313/posts/test-5/</link>
+      <link>https://codethoi.com/posts/test-5/</link>
       <pubDate>Sun, 05 Jan 1012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/test-5/</guid>
+      <guid>https://codethoi.com/posts/test-5/</guid>
       <description>Test 5</description>
     </item>
     
     <item>
       <title>Test 4</title>
-      <link>http://localhost:1313/posts/test-4/</link>
+      <link>https://codethoi.com/posts/test-4/</link>
       <pubDate>Sat, 04 Jan 1012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/test-4/</guid>
+      <guid>https://codethoi.com/posts/test-4/</guid>
       <description>Test 4</description>
     </item>
     
     <item>
       <title>Test 3</title>
-      <link>http://localhost:1313/posts/test-3/</link>
+      <link>https://codethoi.com/posts/test-3/</link>
       <pubDate>Fri, 03 Jan 1012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/test-3/</guid>
+      <guid>https://codethoi.com/posts/test-3/</guid>
       <description>Test 3</description>
     </item>
     
     <item>
       <title>Test 2</title>
-      <link>http://localhost:1313/posts/test-2/</link>
+      <link>https://codethoi.com/posts/test-2/</link>
       <pubDate>Thu, 02 Jan 1012 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/posts/test-2/</guid>
+      <guid>https://codethoi.com/posts/test-2/</guid>
       <description>Test 2</description>
-    </item>
-    
-    <item>
-      <title>Test 1</title>
-      <link>http://localhost:1313/posts/test-1/</link>
-      <pubDate>Wed, 01 Jan 1012 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/posts/test-1/</guid>
-      <description>Test 1</description>
     </item>
     
   </channel>
