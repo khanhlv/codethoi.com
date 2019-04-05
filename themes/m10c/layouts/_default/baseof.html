@@ -26,15 +26,23 @@
     {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
 	
+	<!-- Favicon and Touch icons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}" />
+	<link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon-32x32.png" | relURL }}" />
+	<link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon-16x16.png" | relURL }}" />
+	<link rel="manifest" href="{{ "manifest.json" | relURL }}">
+	<link rel="mask-icon" href="{{ "safari-pinned-tab.svg" | relURL }}" color="#5bbad5" />
+
 	<!-- Permalink & RSSlink -->
 	<link rel="canonical" href="{{ .Permalink }}" />
 	{{- if .RSSLink }}
 	  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 	  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
 	{{- end -}}
-
+	
   </head>
   <body>
+	<!--
 	<div id="fb-root"></div>
 	<script>(function(d, s, id) {
     var js, fjs = d.getElementsByTagName(s)[0];
@@ -43,6 +51,7 @@
     js.src = 'https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&autoLogAppEvents=1&version=v3.2&appId={{ .Site.Params.facebookAppId }}';
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
+   -->
   
     <header class="app-header">
       <a href="/"><img class="app-header-avatar" src="./avatar.jpg" /></a>
@@ -60,11 +69,6 @@
         {{ .Content }}
       {{ end }}
     </main>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
-	<script>
-		if (window.hljs) {
-			hljs.initHighlighting();
-		}
-	</script>
+	<script async src="{{ "js/highlight.min.js" | relURL }}"></script>
   </body>
 </html>

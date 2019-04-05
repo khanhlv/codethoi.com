@@ -13,3 +13,4 @@ $primary-color: {{ .Site.Params.style.primaryColor | default "#57cc8a" }};
 @import 'components/post';
 @import 'components/posts_list';
 @import 'components/tag';
+@import 'components/code';

@@ -11,7 +11,7 @@ Theo bà An, lúc cháu bé bị chó tấn công, bà đang đi điều tra dâ
 
 "Tôi coi thằng bé như con cháu mình, vì từ khi cháu lọt lòng đến nay sống cùng bố mẹ trong khu nhà của tôi. Hàng ngày cháu thường chơi với đàn chó, thậm chí mấy chị em còn múc cháo cho chó ăn", bà An nói.
 
-```Code
+```
 prepareSources.mustRunAfter operationProtocolFilter
 
 task protocolZip(type: Zip, dependsOn: [operationProtocolFilter, protocolPdf]) {
