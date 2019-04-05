@@ -7,14 +7,14 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="Content-Language" content="vi-VN" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}" />
+	<meta name="msvalidate.01" content="{{ .Site.Params.bingSiteVerification }}" />
 	<meta property="fb:app_id" content="{{ .Site.Params.facebookAppId }}" />
 	<meta property="fb:admins" content="{{ .Site.Params.facebookAdminsId }}" />
-	<meta property="og:type" content="blog" />
 	<meta name="robots" content="follow, all" />
-    <meta name="author" content="{{ .Site.Params.author | default "KhanhLV" }}" />
-    <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
+  <meta name="author" content="{{ .Site.Params.author | default "Khanh, Lai Van" }}" />
+  <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}" />
 	{{- if .Keywords -}}
 	  {{ $length := len .Keywords | add -1 -}}
 	  <meta name="keywords" content="{{ range $index, $element := .Keywords }}{{ $element | safeHTML }}{{if ne $index $length }}, {{ end }}{{ end }}" />
@@ -23,8 +23,8 @@
 	  <meta name="keywords" content="{{ range $index, $element := .Site.Params.keywords }}{{ $element | safeHTML }}{{if ne $index $length }}, {{ end }}{{ end }}" />
 	{{- end }}
 	
-    {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
-    <link rel="stylesheet" href="{{ $style.Permalink }}" />
+  {{ $style := resources.Get "css/main.scss" | resources.ExecuteAsTemplate "css/main.scss" . | resources.ToCSS | resources.Minify | resources.Fingerprint -}}
+  <link rel="stylesheet" href="{{ $style.Permalink }}" />
 	
 	<!-- Favicon and Touch icons -->
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ "apple-touch-icon.png" | relURL }}" />
@@ -39,6 +39,16 @@
 	  <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 	  <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
 	{{- end -}}
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleAnalytics }}"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', '{{ .Site.Params.googleAnalytics }}');
+	</script>
 	
   </head>
   <body>
@@ -52,7 +62,6 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script>
    -->
-  
     <header class="app-header">
       <a href="/"><img class="app-header-avatar" src="./avatar.jpg" /></a>
       <h1 style="margin-bottom: 0px;">{{ .Site.Params.Name }}</h1>

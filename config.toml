@@ -13,7 +13,10 @@ enableRobotsTXT = true
   metaData = "a123123"
   facebookAppId = ""
   facebookAdminsId = ""
-  googleSiteVerification = ""
+  googleSiteVerification = "wo64O86TdUrMxfsofpwf5VlbUIjjvXHZzDY5abf0ts0"
+  bingSiteVerification = "080A9672F801279C0E50510383971A10"
+  yandexSiteVerification = ""
+  googleAnalytics = "UA-137826165-1"
   [[params.social]]
     name = "github"
     url = "https://github.com/khanhlv"
