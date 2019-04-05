@@ -1,0 +1,30 @@
+baseURL = "http://localhost:1313/"
+languageCode = "vi-vn"
+title = "Khánh's Blog | Code Thối"
+theme = "m10c"
+paginate = 15
+
+[params]
+  name = "KhanhLV"
+  jobTile = "Code Thối"
+  author = "Khanh, Lai Van"
+  description = "Blog này là nơi mình chia sẻ những kiến thức, kinh nghiệm mà mình đạt được trong quá trình làm việc và trải nghiệm. Và cả những dòng code THỐI nữa :))"
+  keywords = ["enum","clean code"]
+  metaData = "a123123"
+  facebookAppId = ""
+  facebookAdminsId = ""
+  googleSiteVerification = ""
+  [[params.social]]
+    name = "github"
+    url = "https://github.com/khanhlv"
+  [[params.social]]
+    name = "twitter"
+    url = "https://twitter.com/khanhlv4"
+  [[params.social]]
+    name = "facebook"
+    url = "https://fb.com/khanhlv4"
+
+[params.style]
+  lightestColor = "#ffffff"
+  lightColor = "#a2a2a2"
+  primaryColor = "#008b8b"
