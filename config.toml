@@ -3,9 +3,9 @@ languageCode = "vi-vn"
 title = "Khánh's Blog | Code Thối"
 theme = "m10c"
 paginate = 15
-
+enableRobotsTXT = true
 [params]
-  name = "KhanhLV"
+  name = "Khánh Trắng"
   jobTile = "Code Thối"
   author = "Khanh, Lai Van"
   description = "Blog này là nơi mình chia sẻ những kiến thức, kinh nghiệm mà mình đạt được trong quá trình làm việc và trải nghiệm. Và cả những dòng code THỐI nữa :))"
