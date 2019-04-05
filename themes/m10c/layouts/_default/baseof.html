@@ -1,8 +1,11 @@
 <!doctype html>
 <html lang="vi">
   <head>
-    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} [{{ .Site.Title }}]{{ end }}</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} [{{ .Site.Title }}]{{ end }}</title>
 	<base href="{{ .Site.BaseURL }}" />
+	<link rel='dns-prefetch' href='//www.googletagservices.com' />
+	<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+	<link rel='dns-prefetch' href='//www.google-analytics.com' />
 	<meta name="generator" content="Hugo {{ .Hugo.Version }}" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -10,6 +13,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="google-site-verification" content="{{ .Site.Params.googleSiteVerification }}" />
 	<meta name="msvalidate.01" content="{{ .Site.Params.bingSiteVerification }}" />
+	<meta name="yandex-verification" content="{{ .Site.Params.yandexSiteVerification }}" />
+	<meta name="p:domain_verify" content="{{ .Site.Params.pinterestSiteVerification }}" />
 	<meta property="fb:app_id" content="{{ .Site.Params.facebookAppId }}" />
 	<meta property="fb:admins" content="{{ .Site.Params.facebookAdminsId }}" />
 	<meta name="robots" content="follow, all" />

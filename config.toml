@@ -9,13 +9,14 @@ enableRobotsTXT = true
   jobTile = "Code Thối"
   author = "Khanh, Lai Van"
   description = "Blog này là nơi mình chia sẻ những kiến thức, kinh nghiệm mà mình đạt được trong quá trình làm việc và trải nghiệm. Và cả những dòng code THỐI nữa :))"
-  keywords = ["enum","clean code"]
+  keywords = ["code","clean code","code thoi","code thối","chia sẻ kiến thức","cấu hình","java developer","fullstack developer"]
   metaData = "a123123"
   facebookAppId = ""
   facebookAdminsId = ""
   googleSiteVerification = "wo64O86TdUrMxfsofpwf5VlbUIjjvXHZzDY5abf0ts0"
   bingSiteVerification = "080A9672F801279C0E50510383971A10"
-  yandexSiteVerification = ""
+  yandexSiteVerification = "db9fa7ec4316d628"
+  pinterestSiteVerification = "850152a3ed5a57309482eb4111f8267b"
   googleAnalytics = "UA-137826165-1"
   [[params.social]]
     name = "github"
