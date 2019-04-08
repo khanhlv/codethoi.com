@@ -10,7 +10,6 @@ enableRobotsTXT = true
   author = "Khanh, Lai Van"
   description = "Blog này là nơi mình chia sẻ những kiến thức, kinh nghiệm mà mình đạt được trong quá trình làm việc và trải nghiệm. Và cả những dòng code THỐI nữa :))"
   keywords = ["code","clean code","code thoi","code thối","chia sẻ kiến thức","cấu hình","java developer","fullstack developer"]
-  metaData = "a123123"
   facebookAppId = ""
   facebookAdminsId = ""
   googleSiteVerification = "wo64O86TdUrMxfsofpwf5VlbUIjjvXHZzDY5abf0ts0"
@@ -27,6 +26,9 @@ enableRobotsTXT = true
   [[params.social]]
     name = "facebook"
     url = "https://fb.com/khanhlv4"
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/khanhlv/"
 
 [params.style]
   lightestColor = "#ffffff"
