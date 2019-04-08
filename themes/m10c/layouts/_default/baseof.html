@@ -68,7 +68,7 @@
   }(document, 'script', 'facebook-jssdk'));</script>
    -->
     <header class="app-header">
-      <a href="/"><img class="app-header-avatar" src="./avatar.jpg" /></a>
+      <a href="/"><img class="app-header-avatar" src="{{ "13200.jpg" | relURL }}" /></a>
       <h1 style="margin-bottom: 0px;">{{ .Site.Params.Name }}</h1>
 	  <p style="margin-top: 0px;color: #008b8b;">({{ .Site.Params.JobTile }})</p>
       <p>{{ .Site.Params.description | default "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula turpis sit amet elit pretium." }}</p>
