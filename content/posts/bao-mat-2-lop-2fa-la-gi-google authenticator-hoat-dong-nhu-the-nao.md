@@ -116,7 +116,7 @@ Ta có thể chuyển về dạng unsigned integer 32bit (4 bytes)
 # Kết luận
 2FA là một kĩ thuật dùng để enhance security layer của một application. Hay nói cách khác, bạn khóa 1 cửa bằng 2 cái khóa luôn an toàn hơn 1 cái. Trong xã hội đầy loạn lạc này thì ứng dụng nào quan trọng, chứa nhiều sensitive data và liên quan tới tiền bạc thì cứ auto bật 2FA thôi.
 
-*Bài tiếp theo mình sẽ làm 1 ứng dụng WEB thay cho Google Authenticator bằng Java*
+*Bài tiếp theo mình sẽ viết sử dụng bảo mật 2 lớp và code demo*
 
 # Tài liệu tham khảo
 [https://garbagecollected.org/2014/09/14/how-google-authenticator-works/](https://garbagecollected.org/2014/09/14/how-google-authenticator-works/)
