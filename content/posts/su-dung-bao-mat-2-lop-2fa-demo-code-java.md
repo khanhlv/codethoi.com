@@ -140,4 +140,5 @@ Và có thể thay thế Google Authenticator rồi, đỡ phải cài đặt �
 # Kết luận
 2FA là một kĩ thuật dùng để enhance security layer của một application. Hay nói cách khác, bạn khóa 1 cửa bằng 2 cái khóa luôn an toàn hơn 1 cái.
 
+# Bài liên quan
 [*Bảo mật 2 lớp (2FA) là gì ? Google Authenticator hoạt động như thế nào ?*](https://codethoi.com/posts/bao-mat-2-lop-2fa-la-gi-google-authenticator-hoat-dong-nhu-the-nao/)

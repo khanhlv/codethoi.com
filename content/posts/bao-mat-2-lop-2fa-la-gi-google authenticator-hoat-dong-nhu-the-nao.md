@@ -116,6 +116,7 @@ Ta có thể chuyển về dạng unsigned integer 32bit (4 bytes)
 # Kết luận
 2FA là một kĩ thuật dùng để enhance security layer của một application. Hay nói cách khác, bạn khóa 1 cửa bằng 2 cái khóa luôn an toàn hơn 1 cái. Trong xã hội đầy loạn lạc này thì ứng dụng nào quan trọng, chứa nhiều sensitive data và liên quan tới tiền bạc thì cứ auto bật 2FA thôi.
 
+# Bài liên quan
 [*Sử dụng bảo mật 2 lớp và code demo*](/posts/su-dung-bao-mat-2-lop-2fa-demo-code-java/)
 
 # Tài liệu tham khảo
