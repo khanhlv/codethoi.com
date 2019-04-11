@@ -1,8 +1,8 @@
 +++
 title = "Sử dụng bảo mật 2 lớp (2FA), demo bằng ngôn ngữ Java"
 description = "Sử dụng bảo mật 2 lớp (2FA), demo bằng ngôn ngữ Java"
-tags = ["2FA","bảo mật 2 lớp","bảo mật 2","Two-factor Authentication","Authentication","Two-factor","bảo mật", "Google","Google Authenticator"]
-keywords = ["2FA","bảo mật 2 lớp","bảo mật 2","Two-factor Authentication","Authentication","Two-factor","bảo mật", "Google","Google Authenticator"]
+tags = ["2FA","bảo mật 2 lớp","bảo mật 2"]
+keywords = ["2FA","bảo mật 2 lớp","bảo mật 2"]
 date = "2019-04-09"
 +++
 Bài hôm trước mình có giới thiệu về bảo mật 2 lớp (2FA), hôm nay mình tiếp làm demo cơ bản về 2FA và sử dụng nó bằng ngôn ngữ Java
