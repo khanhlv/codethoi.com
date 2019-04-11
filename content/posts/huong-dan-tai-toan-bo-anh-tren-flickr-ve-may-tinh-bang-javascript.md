@@ -46,39 +46,66 @@ Bây giờ code HTML và Javascript để download nào
 
 <body>
 	<script>
+		var makeUrl = function(page) {
+			var user_id = $('input[name=user_id]').val();
+			var api_key = $('input[name=api_key]').val();
+			var url = 'https://api.flickr.com/services/rest?per_page=500&page=' + page + '&extras=can_addmeta,can_comment,can_download,can_share,contact,count_comments,count_faves,count_views,date_taken,date_upload,description,icon_urls_deep,isfavorite,ispro,license,media,needs_interstitial,owner_name,owner_datecreate,path_alias,realname,rotation,safety_level,secret_k,secret_h,url_c,url_f,url_h,url_k,url_l,url_m,url_n,url_o,url_q,url_s,url_sq,url_t,url_z,visibility,visibility_source,o_dims,is_marketplace_printable,is_marketplace_licensable,publiceditability&get_user_info=1&jump_to=&user_id='+ user_id +'&view_as=use_pref&sort=use_pref&viewerNSID=&method=flickr.people.getPhotos&csrf=&api_key='+ api_key +'&format=json&hermes=1&hermesClient=1&reqId=37913745&nojsoncallback=1';
+			
+			return url;
+		}
+		
 		var download = function() {
-			var page = 1;
-            var user_id = $('input[name=user_id]').val();
-            var api_key = $('input[name=api_key]').val();
-			var url = 'https://api.flickr.com/services/rest?per_page=500&page='+ page +'&extras=can_addmeta,can_comment,can_download,can_share,contact,count_comments,count_faves,count_views,date_taken,date_upload,description,icon_urls_deep,isfavorite,ispro,license,media,needs_interstitial,owner_name,owner_datecreate,path_alias,realname,rotation,safety_level,secret_k,secret_h,url_c,url_f,url_h,url_k,url_l,url_m,url_n,url_o,url_q,url_s,url_sq,url_t,url_z,visibility,visibility_source,o_dims,is_marketplace_printable,is_marketplace_licensable,publiceditability&get_user_info=1&jump_to=&user_id='+ user_id +'&view_as=use_pref&sort=use_pref&viewerNSID=&method=flickr.people.getPhotos&csrf=&api_key='+ api_key +'&format=json&hermes=1&hermesClient=1&reqId=37913745&nojsoncallback=1'
 			$.ajax({
-				url: url,
+				url: makeUrl(1),
 			    type: 'GET',
 				async: false,
 			    success: function(data) {
 					if (data.stat == 'ok') {
-						console.log(data.photos);
 						var photo = data.photos.photo;
 						var lengPhoto = photo.length;
-						
+						var pages = data.photos.pages;
+
+						$('#total').html(data.photos.total);
+						$('#pages').html(data.photos.pages);
+						$('#page').html(1);
+					
 						for (var i = 0; i < lengPhoto; i++) {
 							var item = photo[i];
 							$('textarea[name=data_output]').append(item.url_k_cdn + '\n');
-							var hyperlink = document.createElement('a');
-							hyperlink.href = item.url_k_cdn;
-							hyperlink.target = '_blank';
-							hyperlink.download = item.secret_k + '.jpg';
-							hyperlink.click();
 						}
+						downloadPage(pages);
 					}
 				}
 			});
+		}
+		
+		var downloadPage = function(pages) {
+			for (var p = 2; p <= pages; p++) {
+				$('#page').html(p);
+				$.ajax({
+					url: makeUrl(p),
+					type: 'GET',
+					async: false,
+					success: function(data) {
+						if (data.stat == 'ok') {
+							var photo = data.photos.photo;
+							var lengPhoto = photo.length;
+							for (var i = 0; i < lengPhoto; i++) {
+								var item = photo[i];
+								$('textarea[name=data_output]').append(item.url_k_cdn + '\n');
+							}
+						}
+					}
+				});
+			}
 		}
 	</script>
 	UserID: <input type="text" name="user_id" value="125742869@N04" /> <br><br>
 	APIKey: <input type="text" name="api_key" value="7a02be0302d61adc837e4f95655fc024" /> <br><br>
 	<button type="button" onclick="download()">Download</button><br><br>
-	<textarea name="data_output" cols="90" rows="10"></textarea>
+	Total: <b id="total"></b><br><br>
+	Pages: <b id="page"></b>/<b id="pages"></b><br><br>
+	<textarea name="data_output" cols="90" rows="20"></textarea>
 </body>
 </html>
 ```
