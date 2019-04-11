@@ -2,7 +2,7 @@
 title = "Hưỡng dẫn tải toàn bộ ảnh trên Flickr về máy tính bằng Javascript"
 description = "Hưỡng dẫn tải toàn bộ ảnh trên Flickr về máy tính bằng Javascript"
 tags = ["flickr","javascript","code"]
-tags = ["flickr","javascript","code"]
+keywords = ["flickr","javascript","code"]
 date = "2019-04-11"
 +++
 
