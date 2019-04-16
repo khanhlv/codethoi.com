@@ -1,7 +1,7 @@
 +++
 title = "Toàn bộ khóa học trên Codeschool RIP cực mạnh 99.11GB"
 description = "Toàn bộ khóa học trên Codeschool RIP cực mạnh 99.11GB"
-tags = ["codeschool","codeschoolrip","code","school"]
+tags = ["codeschool","codeschool rip","code","school"]
 keywords = ["codeschool","codeschool rip","code","school"]
 date = "2019-04-06"
 +++
