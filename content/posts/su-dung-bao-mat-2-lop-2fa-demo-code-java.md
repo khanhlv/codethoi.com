@@ -1,7 +1,7 @@
 +++
 title = "Sử dụng bảo mật 2 lớp (2FA), demo bằng ngôn ngữ Java"
 description = "Sử dụng bảo mật 2 lớp (2FA), demo bằng ngôn ngữ Java"
-tags = ["2FA"]
+tags = ["2FA","baomat2lop","Google","GoogleAuthenticator"]
 keywords = ["2FA","bảo mật 2 lớp","bảo mật 2"]
 date = "2019-04-09"
 +++
