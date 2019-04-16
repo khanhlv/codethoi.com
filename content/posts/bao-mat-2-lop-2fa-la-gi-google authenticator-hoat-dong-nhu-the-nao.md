@@ -1,7 +1,7 @@
 +++
 title = "Bảo mật 2 lớp (2FA) là gì ? Google Authenticator hoạt động như thế nào ?"
 description = "Bảo mật 2 lớp (2FA) là gì ? Google Authenticator hoạt động như thế nào ?"
-tags = ["2FA","bảo mật 2 lớp","bảo mật 2"]
+tags = ["2FA"]
 keywords = ["2FA","bảo mật 2 lớp","bảo mật 2"]
 date = "2019-04-08"
 +++
