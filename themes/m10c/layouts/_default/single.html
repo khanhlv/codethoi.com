@@ -7,16 +7,12 @@
           {{ partial "icon.html" (dict "ctx" $ "name" "calendar") }}
           {{ .PublishDate.Format "02-01-2006" }}
         </div>
-        {{- with .Params.tags -}}
-        <div itemscope itemtype="http://schema.org/BreadcrumbList">
+        <div itemscope itemtype="http://schema.org/BreadcrumbList"></div>
           {{ partial "icon.html" (dict "ctx" $ "name" "tag") }}
-          {{ range . -}}
-            {{- with $.Site.GetPage (printf "/%s/%s" "tags" . ) -}}
-              <a itemprop="item" class="tag" href="{{ .Permalink }}"><span itemprop="name">{{ .Title }}</span></a>
-            {{- end -}}
-          {{- end -}}
+          {{ range .Params.tags }}
+            <a itemprop="item" class="tag" href="tags/{{ . | urlize }}"><span itemprop="name">{{ . }}</span></a>
+          {{ end }}
         </div>
-        {{- end -}}
       </div>
     </header>
     <div class="post-content">
