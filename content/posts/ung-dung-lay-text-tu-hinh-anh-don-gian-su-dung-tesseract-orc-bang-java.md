@@ -9,7 +9,6 @@ Tuy cái này cũ lắm rồi, công nghệ cũng chẳng có gì mời, nhưng 
 
 Hãy cùng xem một ví dụ rất đơn giản về OCR được triển khai trong Java.
 
-
 **Bước 1:** Download [**tessdata**](https://github.com/tesseract-ocr/tessdata) [eng.traineddata]
 
 **Bước 2:** Lấy hình ảnh muốn bóc tách lấy chữ
@@ -38,16 +37,16 @@ import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 
 public class Test {
- public static void main(String []args) {
-	 Tesseract tesseract = new Tesseract();
-	 try {
-		tesseract.setDatapath("D:/DataScienceCollection/Jars/tessdata");
-		String text = tesseract.doOCR(new File("D:/DataScienceCollection/Images/digit.jpg"));		
-		System.out.print(text);
-	 } catch (TesseractException e) {		
-		e.printStackTrace();
+	public static void main(String []args) {
+		Tesseract tesseract = new Tesseract();
+		try {
+			tesseract.setDatapath("D:/khanhlv/tessdata");
+			String text = tesseract.doOCR(new File("D:/khanhlv/Images/digit.jpg"));		
+			System.out.print(text);
+		} catch (TesseractException e) {		
+			e.printStackTrace();
+		}
 	}
- }
 }
 ```
 **Bước 5:** Chạy thôi nào
