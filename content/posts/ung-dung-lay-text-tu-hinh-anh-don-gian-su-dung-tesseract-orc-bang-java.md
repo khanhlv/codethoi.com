@@ -1,6 +1,6 @@
 +++
-title = "Ứng dụng đơn giản Tesseract OCR bằng Java"
-description = "Ứng dụng đơn giản Tesseract OCR bằng Java"
+title = "Ứng dụng lấy Text từ hình ảnh đơn giản sử dụng Tesseract OCR bằng Java"
+description = "Ứng dụng lấy Text từ hình ảnh đơn giản sử dụng Tesseract OCR bằng Java"
 tags = ["Tesseract", "OCR", "Java"]
 keywords = ["Tesseract", "OCR", "Java"]
 date = "2019-05-04"
