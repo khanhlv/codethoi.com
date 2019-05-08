@@ -1,8 +1,8 @@
 +++
-title = "Hưỡng dẫn kích hoạt JetBrains IntelliJ IDEA Ultimate bằng KEY"
-description = "Hưỡng dẫn kích hoạt JetBrains IntelliJ IDEA Ultimate bằng KEY"
-tags = ["JetBrains", "IntelliJ", "IDEA", "Ultimate", "JetBrains IntelliJ IDEA Ultimate","IntelliJ IDEA Ultimate"]
-keywords = ["JetBrains", "IntelliJ", "IDEA", "Ultimate", "JetBrains IntelliJ IDEA Ultimate","IntelliJ IDEA Ultimate"]
+title = "Hưỡng dẫn kích hoạt JetBrains IntelliJ IDEA Ultimate bằng License Keys"
+description = "Hưỡng dẫn kích hoạt JetBrains IntelliJ IDEA Ultimate bằng License Keys"
+tags = ["JetBrains", "IntelliJ", "IDEA", "Ultimate", "JetBrains IntelliJ IDEA Ultimate","IntelliJ IDEA Ultimate", "License Keys", "License", "Keys"]
+keywords = ["JetBrains", "IntelliJ", "IDEA", "Ultimate", "JetBrains IntelliJ IDEA Ultimate","IntelliJ IDEA Ultimate", "License Keys", "License", "Keys"]
 date = "2019-05-07"
 +++
 
