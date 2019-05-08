@@ -17,9 +17,12 @@ Phần mềm JetBrains IntelliJ IDEA Ultimate – Phân tích, soạn thảo mã
 Đường dẫn: "C:\Windows\System32\drivers\etc\"
 
 **Bước 2:** Thêm 
-
+```
 0.0.0.0 account.jetbrains.com
-
+0.0.0.0 www.jetbrains.com
+0.0.0.0 www-weighted.jetbrains.com
+0.0.0.0 entry.prod-eu.w3jbcom.aws.intellij.net
+```
 **Bước 3:** Nhập KEY
 
 Key: November 29, 2019
