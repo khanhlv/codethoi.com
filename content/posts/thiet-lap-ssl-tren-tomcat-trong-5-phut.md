@@ -8,14 +8,16 @@ date = "2019-06-28"
 Hướng dẫn bạn cách định cấu hình SSL (https://localhost:8443) trên Tomcat trong 5 phút.
 
 Cần chuẩn bị:
+
 * Java SDK
 * Tomcat
 
 Cấu hình gồm 3 bước cơ bản:
-1. Tạo **keystore** bằng Java
-2. Cấu hình **Tomcat** sử dụng *keystore*
-3. Kiểm thử
-4. (Tip) Cấu hình ứng dụng của bạn chạy SSL (https://localhost:8443/yourApp) 
+
+    1. Tạo **keystore** bằng Java
+    2. Cấu hình **Tomcat** sử dụng *keystore*
+    3. Kiểm thử
+    4. (Tip) Cấu hình ứng dụng của bạn chạy SSL (https://localhost:8443/yourApp) 
 
 
 # 1. Tạo **keystore** bằng Java
