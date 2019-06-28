@@ -14,8 +14,8 @@ Cần chuẩn bị:
 
 Cấu hình gồm 3 bước cơ bản:
 
-    1. Tạo **keystore** bằng Java
-    2. Cấu hình **Tomcat** sử dụng *keystore*
+    1. Tạo keystore bằng Java
+    2. Cấu hình Tomcat sử dụng keystore
     3. Kiểm thử
     4. (Tip) Cấu hình ứng dụng của bạn chạy SSL (https://localhost:8443/yourApp) 
 
