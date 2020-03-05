@@ -12,15 +12,26 @@ Phần mềm JetBrains IntelliJ IDEA Ultimate – Phân tích, soạn thảo mã
 
 ![](https://linkerpt.com/wp-content/uploads/2018/04/intellij-idea-2018.jpg)
 
-**Bước 1:** Vào file host trong Window
+**Bước 1:** Vào file host
+
+WINDOW
 
 Đường dẫn: "C:\Windows\System32\drivers\etc\"
+
+MAC
+
+Gõ lệnh trong Terminal "sudo nano /private/etc/hosts"
 
 **Bước 2:** Thêm 
 ```
 0.0.0.0 account.jetbrains.com
 ```
-**Bước 3:** Nhập KEY
+
+Lưu ý: (Khi chỉnh sửa xong nên khởi động lại máy để cho nhận hosts)
+
+**Bước 3:** Mở IntelliJ chọn Help -> Register ..
+
+Nhập KEY tại Activation code
 
 Key: January 4, 2021
 ```
