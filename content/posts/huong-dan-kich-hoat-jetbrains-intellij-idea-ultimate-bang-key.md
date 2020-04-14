@@ -22,9 +22,14 @@ MAC
 
 Gõ lệnh trong Terminal "sudo nano /private/etc/hosts"
 
+LINUX
+
+Đường dẫn: "/etc/hosts"
+
 **Bước 2:** Thêm 
 ```
 0.0.0.0 account.jetbrains.com
+0.0.0.0 www-weighted.jetbrains.com
 ```
 
 Lưu ý: (Khi chỉnh sửa xong nên khởi động lại máy để cho nhận hosts)
