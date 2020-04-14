@@ -28,7 +28,7 @@ LINUX
 
 **Bước 2:** Thêm 
 ```
-0.0.0.0 account.jetbrains.com
+0.0.0.0 www.jetbrains.com
 0.0.0.0 www-weighted.jetbrains.com
 ```
 
