@@ -76,7 +76,10 @@
         {{ range .Site.Params.social }}
           <a target="_blank" href="{{ .url }}">{{ partial "icon.html" (dict "ctx" $ "name" .name ) }}</a>
         {{ end }}
-      </div>
+	  </div>
+	  <div class="ref-link">
+		<a href="//rules.codethoi.com" title="Thước đo Online">Thước đo Online</a>
+	  </div>
     </header>
     <main class="app-container">
       {{ block "main" . }}
