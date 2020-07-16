@@ -6,6 +6,7 @@
 	<link rel='dns-prefetch' href='//www.googletagservices.com' />
 	<link rel='dns-prefetch' href='//www.googletagmanager.com' />
 	<link rel='dns-prefetch' href='//www.google-analytics.com' />
+	<link rel='dns-prefetch' href='//pagead2.googlesyndication.com' />
 	<meta name="generator" content="Hugo {{ .Hugo.Version }}" />
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -54,7 +55,7 @@
 
 		gtag('config', '{{ .Site.Params.googleAnalytics }}');
 	</script>
-	
+	<script data-ad-client="ca-pub-7593009833120099" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   </head>
   <body>
 	<!--
@@ -85,7 +86,16 @@
       {{ block "main" . }}
         {{ .Content }}
       {{ end }}
-    </main>
+	</main>
+	<ins class="adsbygoogle"
+		style="display:block"
+		data-ad-client="ca-pub-7593009833120099"
+		data-ad-slot="8344249878"
+		data-ad-format="auto"
+		data-full-width-responsive="true"></ins>
+		<script>
+		(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
 	<script async src="{{ "js/highlight.min.js" | relURL }}"></script>
   </body>
 </html>
