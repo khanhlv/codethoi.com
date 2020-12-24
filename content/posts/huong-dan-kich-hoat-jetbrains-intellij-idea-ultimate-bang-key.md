@@ -28,10 +28,12 @@ LINUX
 
 **Bước 2:** Thêm 
 ```
+0.0.0.0 https://account.jetbrains.com:443
+0.0.0.0 http://www.jetbrains.com
 0.0.0.0 account.jetbrains.com
-0.0.0.0 www.jetbrains.com
-0.0.0.0 www-weighted.jetbrains.com
-0.0.0.0 entry.prod-eu.w3jbcom.aws.intellij.net
+1.2.3.4 account.jetbrains.com
+1.2.3.4 http://www.jetbrains.com
+1.2.3.4 www-weighted.jetbrains.com
 ```
 
 Lưu ý: (Khi chỉnh sửa xong nên khởi động lại máy để cho nhận hosts)
