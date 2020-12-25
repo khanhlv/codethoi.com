@@ -20,13 +20,11 @@ Phần mềm JetBrains IntelliJ IDEA Ultimate – Phân tích, soạn thảo mã
 
 ![](/images/25122020/2020122501.PNG)
 
-Reload: Dùng để làm mới thông tin hiển thị trên giao diện.
+**Reload:** Dùng để làm mới thông tin hiển thị trên giao diện.
 
-Reset: Nhấp để hỏi có đặt lại thông tin dùng thử và khởi động lại IDE hay không . (Đây là phương pháp đặt lại thủ công)
+**Reset:** Nhấp để hỏi có đặt lại thông tin dùng thử và khởi động lại IDE hay không . (Đây là phương pháp đặt lại thủ công)
 
-Tùy chọn Auto reset before per restart
-
-Nếu được chọn, thông tin dùng thử sẽ tự động được đặt lại mỗi khi khởi động lại / thoát IDE kể từ khi nó được chọn và bạn không cần phải làm thêm những việc khác. (Đây là một phương pháp đặt lại tự động)
+**Auto reset before per restart:** Nếu được chọn, thông tin dùng thử sẽ tự động được đặt lại mỗi khi khởi động lại / thoát IDE kể từ khi nó được chọn và bạn không cần phải làm thêm những việc khác. (Đây là một phương pháp đặt lại tự động)
 
 
 Nguồn: https://zhile.io/2020/11/18/jetbrains-eval-reset.html
