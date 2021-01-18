@@ -10,7 +10,7 @@ Phần mềm JetBrains IntelliJ IDEA Ultimate – Phân tích, soạn thảo mã
 
 ![](https://linkerpt.com/wp-content/uploads/2018/04/intellij-idea-2018.jpg)
 
-**Bước 1:** Download plugin [*tại đây*](https://plugins.zhile.io/files/ide-eval-resetter-2.1.9.zip)
+**Bước 1:** Download plugin [*tại đây*](https://plugins.zhile.io/files/ide-eval-resetter-2.1.10.zip)
 
 **Bước 2:** Mở Settings/Preferences... -> Plugins
 
