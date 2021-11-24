@@ -5,37 +5,37 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137826165-1"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137826165-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-			gtag('config', 'UA-137826165-1');
-		</script>
+		gtag('config', 'UA-137826165-1');
+	</script>
         <script type="text/javascript">
             function parseQR() {
-				var inputVal = document.getElementById("input").value;
-				var outputVal = document.getElementById("output").value;
-				
-				var dataOutput = '';
-				var dataInput = inputVal;
-				
-				while (dataInput) {
-					var key = dataInput.substring(0, 2);
-					var lengthValue = parseInt(dataInput.substring(2, 4));
-					if (!lengthValue) {
-						alert('Mã QR không hợp lệ!');
-						break;
-					}
-					var value = dataInput.substring(4, lengthValue + 4);
-					dataOutput += key + ":" + value + "\n";
-					dataInput = dataInput.substring(lengthValue + 4);
+			var inputVal = document.getElementById("input").value;
+			var outputVal = document.getElementById("output").value;
+
+			var dataOutput = '';
+			var dataInput = inputVal;
+
+			while (dataInput) {
+				var key = dataInput.substring(0, 2);
+				var lengthValue = parseInt(dataInput.substring(2, 4));
+				if (!lengthValue) {
+					alert('Mã QR không hợp lệ!');
+					break;
 				}
-				
-				document.getElementById("output").value = dataOutput;
+				var value = dataInput.substring(4, lengthValue + 4);
+				dataOutput += key + ":" + value + "\n";
+				dataInput = dataInput.substring(lengthValue + 4);
 			}
+
+			document.getElementById("output").value = dataOutput;
+		}
         </script>
     </head>
     <body>
