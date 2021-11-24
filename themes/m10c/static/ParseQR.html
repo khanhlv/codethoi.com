@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VPBank NEO</title>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+ 
+        <script type="text/javascript">
+            function parseQR() {
+				var inputVal = document.getElementById("input").value;
+				var outputVal = document.getElementById("output").value;
+				
+				var dataOutput = '';
+				var dataInput = inputVal;
+				
+				while (dataInput) {
+					var key = dataInput.substring(0, 2);
+					var lengthValue = parseInt(dataInput.substring(2, 4));
+					if (!lengthValue) {
+						alert('Mã QR không hợp lệ!');
+						break;
+					}
+					var value = dataInput.substring(4, lengthValue + 4);
+					dataOutput += key + ":" + value + "\n";
+					dataInput = dataInput.substring(lengthValue + 4);
+				}
+				
+				document.getElementById("output").value = dataOutput;
+			}
+        </script>
+    </head>
+    <body>
+		<center>
+			<h1>Parse QR</h1>
+			<textarea rows="10" cols="100" id="input"></textarea>
+			<br>
+			<br>
+			<button onclick="parseQR()">Parse QR</button>
+			<br>
+			<br>
+			<textarea rows="20" cols="100" id="output" readonly></textarea>
+		</center>
+    </body>
+</html>
+ 
