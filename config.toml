@@ -16,7 +16,7 @@ enableRobotsTXT = true
   bingSiteVerification = "080A9672F801279C0E50510383971A10"
   yandexSiteVerification = "db9fa7ec4316d628"
   pinterestSiteVerification = "850152a3ed5a57309482eb4111f8267b"
-  googleAnalytics = "UA-137826165-1"
+  googleAnalytics = "G-W80KFG2H2K"
   [[params.social]]
     name = "github"
     url = "https://github.com/khanhlv"
