@@ -10,7 +10,7 @@ date = "2023-02-17"
 
 Sơ đồ dưới đây cho thấy 6 thuật toán phổ biến.
 
-![load balancing algorithms](/images/25122020/2020122501.PNG)
+![load balancing algorithms](/images/load-balancing.png)
 
 
 ## Static Algorithms
