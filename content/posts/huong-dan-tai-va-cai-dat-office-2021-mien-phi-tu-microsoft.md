@@ -1,12 +1,12 @@
 +++
-title = "Hưỡng dẫn tải và cài đặt Office 2021 miễn phí từ Microsoft | Genuine Version"
-description = "Office LTSC là phiên bản vĩnh viễn mới nhất của Microsoft 365 dành cho khách hàng thương mại và chính phủ, một giấy phép dựa trên thiết bị sẵn dùng dưới dạng mua một lần "vô thời hạn", sẵn dùng trên cả hai nền tảng (Windows và Mac)."
+title = "Hưỡng dẫn tải và cài đặt Office 2021 miễn phí từ Microsoft"
+description = "Office LTSC là phiên bản vĩnh viễn mới nhất của Microsoft 365 dành cho khách hàng thương mại và chính phủ, một giấy phép dựa trên thiết bị sẵn dùng dưới dạng mua một lần vô thời hạn, sẵn dùng trên cả hai nền tảng (Windows và Mac)."
 tags = ["Microsoft Office 2021", "Microsoft Genuine Version", "Office 2021 Free", "Office 2021 LTSC"]
 keywords = ["Microsoft Office 2021", "Microsoft Genuine Version", "Office 2021 Free", "Office 2021 LTSC"]
 date = "2023-03-17"
 +++
 
-Office LTSC là phiên bản vĩnh viễn mới nhất của Microsoft 365 dành cho khách hàng thương mại và chính phủ, một giấy phép dựa trên thiết bị sẵn dùng dưới dạng mua một lần "vô thời hạn", sẵn dùng trên cả hai nền tảng (Windows và Mac). Giống như phiên bản trước đó của Office 2019, Office LTSC sẽ bao gồm Word, Excel, PowerPoint, Outlook, OneNote, Access ( chỉWindows ) và Publisher ( chỉ dànhWindows ).
+Office LTSC là phiên bản vĩnh viễn mới nhất của Microsoft 365 dành cho khách hàng thương mại và chính phủ, một giấy phép dựa trên thiết bị sẵn dùng dưới dạng mua một lần vô thời hạn, sẵn dùng trên cả hai nền tảng (Windows và Mac). Giống như phiên bản trước đó của Office 2019, Office LTSC sẽ bao gồm Word, Excel, PowerPoint, Outlook, OneNote, Access ( chỉWindows ) và Publisher ( chỉ dànhWindows ).
 
 **Bước 1:** Vào trang [*https://config.office.com/*](https://config.office.com/) để lấy cấu hình
 
