@@ -10,27 +10,27 @@ Office LTSC là phiên bản vĩnh viễn mới nhất của Microsoft 365 dành
 
 **Bước 1**: Vào trang https://config.office.com/ để lấy cấu hình
 
-![](/office/1.0.PNG)
+![Microsoft Office 2021](/office/1.0.PNG)
 
-![](/office/1.1.PNG)
+![Microsoft Office 2021](/office/1.1.PNG)
 
-![](/office/1.2.PNG)
+![Microsoft Office 2021](/office/1.2.PNG)
 
-![](/office/1.3.PNG)
+![Microsoft Office 2021](/office/1.3.PNG)
 
-![](/office/1.4.PNG)
+![Microsoft Office 2021](/office/1.4.PNG)
 
-![](/office/1.5.PNG)
+![Microsoft Office 2021](/office/1.5.PNG)
 
-![](/office/1.6.PNG)
+![Microsoft Office 2021](/office/1.6.PNG)
 
-![](/office/1.7.PNG)
+![Microsoft Office 2021](/office/1.7.PNG)
 
-![](/office/1.8.PNG)
+![Microsoft Office 2021](/office/1.8.PNG)
 
 **Bước 2**: Vào trang https://www.microsoft.com/en-us/download/details.aspx?id=49117 tải về công cụ về
 
-![](/office/2.PNG)
+![Microsoft Office 2021](/office/2.PNG)
 
 **Bước 3**: Chạy file vừa tải
 
