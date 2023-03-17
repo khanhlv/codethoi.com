@@ -35,6 +35,7 @@ Office LTSC là phiên bản vĩnh viễn mới nhất của Microsoft 365 dành
 **Bước 3:** Chạy file vừa tải
 
 **Bước 4:** Chạy câu lệnh
+
 	- Vào thưc mục vừa chạy từ Bước 3
 	- Copy file Configuration.xml và thư mục
 	- Mở CMD chạy lệnh: setup.exe /download Configuration.xml
