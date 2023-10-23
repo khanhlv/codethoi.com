@@ -33,6 +33,14 @@ b8Gs6ZVtQUMdIYK3p-lPqPRSngrmFa4S
 QX1pUCLoP8vyc7OE-V7iqeUC8E3XqkPh
 
 M4greCZenXxgf0Vg-Nfo4NGBEOF9Iqfg
+
+0hIJLjvLQvG-sHKJxZ55E6A-Xp6khPRhtl
+
+l2k1S6XdV91Q0g-TVoeRMG-767Ic0eAx24
+
+zLe6duaKLzxrdh-0G56IAWL-mc44EaDT2m
+
+jmKawvILl2f-GuSMPx3ieBvX-gySh6Lywn
 ```
 ## Navicat Premium Product Key:
 ```
@@ -43,6 +51,26 @@ UqK6C4RnLERiW-hJEDXWnv6SRevarR
 OA38R7Wpakzq-xeZyfBuOIX4Yh4pbfF
 
 ZDdwjQtVMTgY-SW9KOoi2A4gkHII1c
+
+WoV0UrQkylM-FjOfmaUR7s-bR0bRJMG6s7
+
+9TUsF1Wm63F3J-THmbdZqFx-L82qwxLH0g
+
+vn9SoQ7V5K-Sn7vghUlCUU-JywY55xSUud
+
+j6PIgIRciVQe46-wm9aXGMcf-5vcylwkQc
 ```
+
+## Navicat Premium License Key
+```
+WoV0UrQkyl-MFjOfmaUR7-sbR0bRJMG6s7
+
+9TUsF1Wm63F3-JTHmbdZqFx-L82qwxLH0g
+
+vn9SoQ7V5KSn-7vghUlCUUJ-ywY55xSUud
+
+j6PIgIRciVQe4-6wm9aXG-Mcf5vcylwkQc
+```
+
 
 Có thể tải [*tại đây*](https://firebasestorage.googleapis.com/v0/b/vpbank-push.appspot.com/o/software%2FNavicat%20Premium%2016.2.5%20(x64).zip?alt=media&token=088118bc-3d0a-440d-986b-4d562461ff19&_gl=1*13qpipo*_ga*MTU4NzA3NTAyMi4xNjkwNDY4ODM4*_ga_CW55HF8NVT*MTY5ODA4MTYyNy4yMy4xLjE2OTgwODE4MzcuNjAuMC4w)
