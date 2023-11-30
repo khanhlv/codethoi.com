@@ -8,41 +8,56 @@ date = "2020-12-24"
 
 Phần mềm JetBrains IntelliJ IDEA Ultimate – Phân tích, soạn thảo mã java giúp bạn, tìm kiếm các kết nối giữa các biểu tượng trên tất cả các tệp dự án và ngôn ngữ. Sử dụng thông tin này nó cung cấp hỗ trợ mã hoá sâu, điều hướng nhanh, phân tích lỗi thông minh, và tái cấu trúc.
 
-**P/S: Mình sẽ cập nhập KEY khi hết hạn**
 
 ![](https://linkerpt.com/wp-content/uploads/2018/04/intellij-idea-2018.jpg)
 
-**Bước 1:** Vào file host
 
-WINDOW
+Tài khoản JetBrains có thể được hiểu là một điều lệ liên kết giữa bạn và các sản phẩm và dịch vụ của JetBrains. Nó cung cấp cho người dùng quyền truy cập nhanh và an toàn, nâng cấp sản phẩm liền mạch và thuận lợi khi di chuyển sang phần cứng khác. Đối với khách hàng thương mại, tài khoản JetBrains là cách đơn giản và thuận tiện để truy cập và quản lý các giao dịch mua của bạn, phân phối giấy phép cho người dùng, xem lịch sử đơn đặt hàng của bạn.
 
-Đường dẫn: "C:\Windows\System32\drivers\etc\"
+Sau đây là hướng dẫn cách tải và sử dụng JetBrains:
 
-MAC
+**Bước 1:** truy cập đường link đăng ký tại đây: 
 
-Gõ lệnh trong Terminal "sudo nano /private/etc/hosts"
+https://www.jetbrains.com/community/education/#students
 
-LINUX
+![](https://caodang.fpt.edu.vn/wp-content/uploads/image2-50-1536x727.png)
 
-Đường dẫn: "/etc/hosts"
 
-**Bước 2:** Thêm 
-```
-0.0.0.0 https://account.jetbrains.com:443
-0.0.0.0 http://www.jetbrains.com
-0.0.0.0 account.jetbrains.com
-1.2.3.4 account.jetbrains.com
-1.2.3.4 http://www.jetbrains.com
-1.2.3.4 www-weighted.jetbrains.com
-```
+**Bước 2:** chọn Apply now tại màn hình chính.
 
-Lưu ý: (Khi chỉnh sửa xong nên khởi động lại máy để cho nhận hosts)
+**Bước 3:** Điền các thông tin cá nhân tại form đăng ký:
 
-**Bước 3:** Mở IntelliJ chọn Help -> Register ..
+![](https://caodang.fpt.edu.vn/wp-content/uploads/image4-42.png)
 
-Nhập KEY tại Activation code
+Hướng dẫn tạo tài khoản JetBrains bằng mail
 
-Key: 2021/11/06
-```
-EON2WS0M6H-3357CWMX2K-eyJsaWNlbnNlSWQiOiIzMzU3Q1dNWDJLIiwibGljZW5zZWVOYW1lIjoi5rC45LmF5r+A5rS7IHd3d8K3YWppaHVvwrdjb20iLCJhc3NpZ25lZU5hbWUiOiIiLCJhc3NpZ25lZUVtYWlsIjoiIiwibGljZW5zZVJlc3RyaWN0aW9uIjoiIiwiY2hlY2tDb25jdXJyZW50VXNlIjpmYWxzZSwicHJvZHVjdHMiOlt7ImNvZGUiOiJEUE4iLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJEQiIsInBhaWRVcFRvIjoiMjAyMS0xMS0wNiJ9LHsiY29kZSI6IlBTIiwicGFpZFVwVG8iOiIyMDIxLTExLTA2In0seyJjb2RlIjoiSUkiLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJSU0MiLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJHTyIsInBhaWRVcFRvIjoiMjAyMS0xMS0wNiJ9LHsiY29kZSI6IkRNIiwicGFpZFVwVG8iOiIyMDIxLTExLTA2In0seyJjb2RlIjoiUlNGIiwicGFpZFVwVG8iOiIyMDIxLTExLTA2In0seyJjb2RlIjoiUEMiLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJSQyIsInBhaWRVcFRvIjoiMjAyMS0xMS0wNiJ9LHsiY29kZSI6IkNMIiwicGFpZFVwVG8iOiIyMDIxLTExLTA2In0seyJjb2RlIjoiV1MiLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJSRCIsInBhaWRVcFRvIjoiMjAyMS0xMS0wNiJ9LHsiY29kZSI6IlJTMCIsInBhaWRVcFRvIjoiMjAyMS0xMS0wNiJ9LHsiY29kZSI6IlJNIiwicGFpZFVwVG8iOiIyMDIxLTExLTA2In0seyJjb2RlIjoiQUMiLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJSU1YiLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJEQyIsInBhaWRVcFRvIjoiMjAyMS0xMS0wNiJ9LHsiY29kZSI6IlJTVSIsInBhaWRVcFRvIjoiMjAyMS0xMS0wNiJ9LHsiY29kZSI6IkRQIiwicGFpZFVwVG8iOiIyMDIxLTExLTA2In0seyJjb2RlIjoiUERCIiwicGFpZFVwVG8iOiIyMDIxLTExLTA2In0seyJjb2RlIjoiUFdTIiwicGFpZFVwVG8iOiIyMDIxLTExLTA2In0seyJjb2RlIjoiUFNJIiwicGFpZFVwVG8iOiIyMDIxLTExLTA2In0seyJjb2RlIjoiUENXTVAiLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJQUFMiLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJQR08iLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJQUEMiLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJQUkIiLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJQU1ciLCJwYWlkVXBUbyI6IjIwMjEtMTEtMDYifSx7ImNvZGUiOiJSUyIsInBhaWRVcFRvIjoiMjAyMS0xMS0wNiJ9XSwiaGFzaCI6IjI2ODE0MjQ4LzA6LTIwMDcyOTE0OTEiLCJncmFjZVBlcmlvZERheXMiOjcsImF1dG9Qcm9sb25nYXRlZCI6ZmFsc2UsImlzQXV0b1Byb2xvbmdhdGVkIjpmYWxzZX0=-IPQbergdcdj70fz/tZB0Zssxk0pQJS7zam+z/9oJFE9rfbohA0H0cQdt4t6eEYSC+i2Ac4oYDf7P5h0hZXbNPYcBCS8lGISHlDKiAWLahA37x4ivOE7EvnnLGBDxtj+NdkzjsJpLaK3udNj0/LEsElExMkbC2CT8ptNS1NKAqk1lo6ImkiXmpf42IUrhRbAPRSmNJoXidMhjW0EIqtquqlljukq6LNbxaITmnhxhuG7yg1PiNFW6hMbBHKCxhjTk2jnR2RGVB6T/GD1Fa/mR/e/+KBm9QgAXOdLUBmzSX9GaeUfIQUpBayYbdLa6qXPnqtSET7oi5kQsX/wRx/iVSQ==-MIIETDCCAjSgAwIBAgIBDTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTIwMTAxOTA5MDU1M1oXDTIyMTAyMTA5MDU1M1owHzEdMBsGA1UEAwwUcHJvZDJ5LWZyb20tMjAyMDEwMTkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDCP4uk4SlVdA5nuA3DQC+NsEnZS9npFnO0zrmMWcz1++q2UWJNuGTh0rwi+3fUJIArfvVh7gNtIp93rxjtrQAuf4/Fa6sySp4c32MeFACfC0q+oUoWebhOIaYTYUxm4LAZ355vzt8YeDPmvWKxA81udqEk4gU9NNAOz1Um5/8LyR8SGsSc4EDBRSjcMWMwMkYSauGqGcEUK8WhfplsyF61lKSOFA6VmfUmeDK15rUWWLbOMKgn2cxFA98A+s74T9Oo96CU7rp/umDXvhnyhAXSukw/qCGOVhwKR8B6aeDtoBWQgjnvMtPgOUPRTPkPGbwPwwDkvAHYiuKJ7Bd2wH7rAgMBAAGjgZkwgZYwCQYDVR0TBAIwADAdBgNVHQ4EFgQUJNoRIpb1hUHAk0foMSNM9MCEAv8wSAYDVR0jBEEwP4AUo562SGdCEjZBvW3gubSgUouX8bOhHKQaMBgxFjAUBgNVBAMMDUpldFByb2ZpbGUgQ0GCCQDSbLGDsoN54TATBgNVHSUEDDAKBggrBgEFBQcDATALBgNVHQ8EBAMCBaAwDQYJKoZIhvcNAQELBQADggIBAB2J1ysRudbkqmkUFK8xqhiZaYPd30TlmCmSAaGJ0eBpvkVeqA2jGYhAQRqFiAlFC63JKvWvRZO1iRuWCEfUMkdqQ9VQPXziE/BlsOIgrL6RlJfuFcEZ8TK3syIfIGQZNCxYhLLUuet2HE6LJYPQ5c0jH4kDooRpcVZ4rBxNwddpctUO2te9UU5/FjhioZQsPvd92qOTsV+8Cyl2fvNhNKD1Uu9ff5AkVIQn4JU23ozdB/R5oUlebwaTE6WZNBs+TA/qPj+5/wi9NH71WRB0hqUoLI2AKKyiPw++FtN4Su1vsdDlrAzDj9ILjpjJKA1ImuVcG329/WTYIKysZ1CWK3zATg9BeCUPAV1pQy8ToXOq+RSYen6winZ2OO93eyHv2Iw5kbn1dqfBw1BuTE29V2FJKicJSu8iEOpfoafwJISXmz1wnnWL3V/0NxTulfWsXugOoLfv0ZIBP1xH9kmf22jjQ2JiHhQZP7ZDsreRrOeIQ/c4yR8IQvMLfC0WKQqrHu5ZzXTH4NO3CwGWSlTY74kE91zXB5mwWAx1jig+UXYc2w4RkVhy0//lOmVya/PEepuuTTI4+UJwC7qbVlh5zfhj8oTNUXgN0AOc+Q0/WFPl1aw5VV/VrO8FCoB15lFVlpKaQ1Yh+DVU8ke+rt9Th0BCHXe0uZOEmH0nOnH/0onD
-```
+![](https://caodang.fpt.edu.vn/wp-content/uploads/image3-43.png)
+
+Thực hiện nhấn “Apply for free products”
+
+**Bước 4:**  Truy cập lại trang web JetBrains thực hiện Login tài khoản mail
+
+![](https://caodang.fpt.edu.vn/wp-content/uploads/image6-27-1170x550.png)
+
+Tại đây bạn sẽ nhìn thấy được thời gian của gói đăng ký sinh viên và các sản phẩm có thể sử dụng
+
+Cài đặt IntelliJ IDEA
+
+**Bước 1:** Truy cập đường link tải IntelliJ tại đây
+
+**Bước 2:** Chọn hệ điều hành và thực hiện tải xuống file exe
+
+lưu ý: lựa chọn intellj Ultimate
+**Bước 3:** Thực hiện chạy IntelliJ
+
+Tại màn hình chính chọn Help -> Register
+
+![](https://caodang.fpt.edu.vn/wp-content/uploads/image5-28-1536x811.png)
+
+**Bước 4:** Chọn Activate Intellij IDEA -> JB Account -> Log in.
+
+![](https://caodang.fpt.edu.vn/wp-content/uploads/image1-58.png)
+
+**Bước 5:** Chọn Ativate là đăng ký thành công IntelliJ.
+
+
